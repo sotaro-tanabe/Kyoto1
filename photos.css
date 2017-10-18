@@ -1,0 +1,79 @@
+body {
+    background-color: #fff;
+    background-size: cover;
+}
+li {
+	list-style: none;
+}
+header {
+	background-color: #26d0c9;
+	color: #fff;
+	height: 90px;
+	opacity: 0.8;
+}
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding-left:20px;
+	padding-top:40px;
+}
+.header-logo span {
+	color: red;
+}
+.header-list {
+	float: left;
+}
+.header-list li {
+	float: left;
+	padding-top: 45px;
+	padding-right: 30px;
+}
+.main {
+	padding-left: 20px;
+}
+.main-title h1 {
+	padding-top: 50px;
+	font-size: 100px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #333;
+}
+.main-title span {
+	color: red;
+}
+.main-contents {
+	padding-left: 0px;
+	float: left;
+}
+.main-contents li {
+	float: left;
+	padding-right: 15px;
+}
+.main-contents img {
+	border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 200px; /* Set a small width */
+    height: 200px;
+    object-fit: cover;
+}
+.main-contents img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+footer {
+	background-color: #2f5167;
+	color: #fff;
+	height: 50px;
+	opacity: 0.85;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.footer-contents {
+	float: right;
+}
+.footer-contents li {
+	float: right;
+	padding-left: 0px;
+	padding-right: 30px;
+}
