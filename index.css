@@ -1,0 +1,64 @@
+body {
+	background-image: url("C:/Users/壮太郎/Desktop/Programming/JavaScript/New folder/billboard3.png");
+	background-color: #cccccc;
+	background-size: cover;
+}
+li {
+	list-style: none;
+}
+header {
+	background-color: #26d0c9;
+	color: #fff;
+	height: 90px;
+	opacity: 0.8;
+}
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding-left:20px;
+	padding-top:40px;
+}
+.header-logo span {
+	color: red;
+}
+.header-list {
+	float: left;
+}
+.header-list li {
+	float: left;
+	padding-top: 45px;
+	padding-right: 30px;
+}
+.main {
+	padding-left: 20px;
+	height: 500px;
+}
+.main-title h1 {
+	padding-top: 50px;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+.main-title span {
+	color: red;
+}
+.main-title h2 {
+	font-size: 40px;
+}
+footer {
+	background-color: #2f5167;
+	color: #fff;
+	height: 50px;
+	opacity: 0.85;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.footer-contents {
+	float: right;
+}
+.footer-contents li {
+	float: right;
+	padding-left: 0px;
+	padding-right: 30px;
+}
